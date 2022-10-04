@@ -1,0 +1,42 @@
+@Project_Name__Sathya_Automation @Tester_Name__Saravanan_A @Module_Name__Airconditioner @Sample_1
+Feature: Clicking_Each_Product
+
+  @Project_Name__Sathya_Automation @Tester_Name__Saravanan_A @Module_Name__Airconditioner @Sample_1
+  Scenario: Clicking_Each_Product                                                     # /G:/New folder/Framework_Original/src/test/resources/testcases/airconditioner/Clicking_Each_Product.feature:7
+    Given I set my testcase id as 'TC_1'                                              # Sathya_Common_Steps.setTestIDAs(String)
+    Given I am Logged into Sathya Application                                         # Sathya_Common_Steps.Sathya_Login()
+    Given I set my testcase id as 'TC_2'                                              # Sathya_Common_Steps.setTestIDAs(String)
+    And I navigate from "Home Appliances" to "Air Conditioner" and then to "Split AC" # Sathya_Common_Steps.navigation(String,String,String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a/span[normalize-space(text())='Air Conditioner']/following-sibling::*/a/span[normalize-space(text())='Split AC']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BALAVINOTH', ip: '192.168.43.137', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\SARANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52980}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 734e78fb61d0f48f9142abedb1766065
+*** Element info: {Using=xpath, value=//a/span[normalize-space(text())='Air Conditioner']/following-sibling::*/a/span[normalize-space(text())='Split AC']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebUtils.JS_Click(WebUtils.java:333)
+	at pages.Sathya_Base_Page.navigation(Sathya_Base_Page.java:74)
+	at stepdefinitions.Sathya_Common_Steps.navigation(Sathya_Common_Steps.java:57)
+	at ✽.I navigate from "Home Appliances" to "Air Conditioner" and then to "Split AC"(file:/G:/New%20folder/Framework_Original/src/test/resources/testcases/airconditioner/Clicking_Each_Product.feature:17)
+
+    And I apply the following filters on the listed products                          # Sathya_Common_Steps.applyFilters(String,String,DataTable)
+    And I get total number of products listed in '1' pages                            # Air_Conditioner_Common_Steps.totalProducts(int,String)
+    And I navigate into each products and get the following details                   # Air_Conditioner_Common_Steps.eachProduct(String>)
+    And I write the gathered details into the following file                          # Sathya_Common_Steps.writeIntoFile(DataTable)
+    And I read the file as following details                                          # Sathya_Common_Steps.readFromFile(DataTable)

@@ -1,0 +1,149 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-17T17:48:07.065Z",
+        "before": [
+          {
+            "result": {
+              "duration": 99828556,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Clicking_Each_Product",
+        "description": "",
+        "id": "clicking-each-product;clicking-each-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1385084027,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 174280781,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I set my testcase id as \u0027TC_1\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC_1",
+                  "offset": 25
+                }
+              ],
+              "location": "Sathya_Common_Steps.setTestIDAs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13029808526,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am Logged into Sathya Application",
+            "match": {
+              "location": "Sathya_Common_Steps.Sathya_Login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11702895,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I read the file as following details",
+            "match": {
+              "location": "Sathya_Common_Steps.readFromFile(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FILE_NAME",
+                  "Sample"
+                ]
+              },
+              {
+                "cells": [
+                  "FILE_TYPE",
+                  "TEXT"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Project_Name__Sathya_Automation"
+          },
+          {
+            "name": "@Tester_Name__Saravanan_A"
+          },
+          {
+            "name": "@Module_Name__Airconditioner"
+          },
+          {
+            "name": "@Sample_1"
+          }
+        ]
+      }
+    ],
+    "name": "Clicking_Each_Product",
+    "description": "",
+    "id": "clicking-each-product",
+    "keyword": "Feature",
+    "uri": "file:/G:/Sathya_Automation/src/test/resources/testcases/airconditioner/Clicking_Each_Product.feature",
+    "tags": [
+      {
+        "name": "@Project_Name__Sathya_Automation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Tester_Name__Saravanan_A",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Module_Name__Airconditioner",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Sample_1",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

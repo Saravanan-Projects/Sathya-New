@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b0198e5-6bbc-4d0c-addf-f3330f795afd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VOcffSsBkQWpPNonWYbNw3yeOO" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\New folder\Original\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.G:/New folder/Framework_Original/src/test/java/test_samples/B_Sub_Projects/runner/Test.xml">
+    <configuration name="G:/New folder/Framework_Original/src/test/java/runners/Sathya_Automation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Sathya_Automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/runners/Sathya_Automation.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G:/New folder/Framework_Original/src/test/java/test_samples/B_Sub_Projects/runner/Test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Sathya_Automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/test_samples/B_Sub_Projects/runner/Test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run_Automation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Sathya_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Run_Automation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.G:/New folder/Framework_Original/src/test/java/test_samples/B_Sub_Projects/runner/Test.xml" />
+        <item itemvalue="TestNG.G:/New folder/Framework_Original/src/test/java/runners/Sathya_Automation.xml" />
+        <item itemvalue="TestNG.Run_Automation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b0198e5-6bbc-4d0c-addf-f3330f795afd" name="Default Changelist" comment="" />
+      <created>1577127691499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577127691499</updated>
+    </task>
+    <servers />
+  </component>
+</project>

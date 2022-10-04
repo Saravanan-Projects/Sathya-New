@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^I set my testcase id as \u0027(.*?)\u0027$",
+    "steps": [
+      {
+        "name": "I set my testcase id as \u0027TC_1\u0027",
+        "aggregatedDurations": {
+          "median": 0.174280781,
+          "average": 0.174280781
+        },
+        "durations": [
+          {
+            "duration": 0.174280781,
+            "location": "file:/G:/Sathya_Automation/src/test/resources/testcases/airconditioner/Clicking_Each_Product.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am Logged into Sathya Application$",
+    "steps": [
+      {
+        "name": "I am Logged into Sathya Application",
+        "aggregatedDurations": {
+          "median": 13.029808526,
+          "average": 13.029808526
+        },
+        "durations": [
+          {
+            "duration": 13.029808526,
+            "location": "file:/G:/Sathya_Automation/src/test/resources/testcases/airconditioner/Clicking_Each_Product.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I read the file as following details$",
+    "steps": [
+      {
+        "name": "I read the file as following details",
+        "aggregatedDurations": {
+          "median": 0.011702895,
+          "average": 0.011702895
+        },
+        "durations": [
+          {
+            "duration": 0.011702895,
+            "location": "file:/G:/Sathya_Automation/src/test/resources/testcases/airconditioner/Clicking_Each_Product.feature:44"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[1128/235602.521:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[1129/001811.772:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1129/001841.101:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1201/035556.649:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1201/203530.679:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/002746.641:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/085847.070:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/090209.481:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[1203/091034.849:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/205328.431:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/210148.482:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/210155.292:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[1203/210220.966:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/210404.364:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/210458.873:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/211418.982:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/211505.314:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/212319.204:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/215405.966:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/215415.413:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/215810.636:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/215945.462:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[1203/220317.923:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/220827.481:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1203/232025.771:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[1203/232355.573:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1204/230450.717:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1213/005234.048:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1213/010023.341:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1217/231202.257:ERROR:file_io_win.cc(161)] CreateFile C:\Users\SARANA~1\AppData\Local\Temp\scoped_dir5636_526171135\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1217/231204.827:ERROR:file_io_win.cc(170)] CreateFile C:\Users\SARANA~1\AppData\Local\Temp\scoped_dir5636_526171135\Crashpad\reports\4b17328e-b143-4063-ab99-beeaae55669a.dmp: The system cannot find the path specified. (0x3)
+[1217/231204.827:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

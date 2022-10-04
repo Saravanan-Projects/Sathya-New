@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.704079">
+<testcase classname="Clicking_Each_Product" name="Clicking_Each_Product" time="14.704079">
+<system-out><![CDATA[Given I set my testcase id as 'TC_1'........................................passed
+Given I am Logged into Sathya Application...................................passed
+And I read the file as following details....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

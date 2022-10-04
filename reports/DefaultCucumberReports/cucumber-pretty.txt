@@ -1,0 +1,8 @@
+@Project_Name__Sathya_Automation @Tester_Name__Saravanan_A @Module_Name__Airconditioner @Sample_1
+Feature: Clicking_Each_Product
+
+  @Project_Name__Sathya_Automation @Tester_Name__Saravanan_A @Module_Name__Airconditioner @Sample_1
+  Scenario: Clicking_Each_Product             # /G:/Sathya_Automation/src/test/resources/testcases/airconditioner/Clicking_Each_Product.feature:7
+    Given I set my testcase id as 'TC_1'      # Sathya_Common_Steps.setTestIDAs(String)
+    Given I am Logged into Sathya Application # Sathya_Common_Steps.Sathya_Login()
+    And I read the file as following details  # Sathya_Common_Steps.readFromFile(DataTable)
